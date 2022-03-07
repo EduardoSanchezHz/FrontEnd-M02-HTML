@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta http-equiv= “X-UA-Compatible” content= “IE=edge”> 
+        <meta name= “viewport” content= “width=device-width, initial-scale=1.0” > 
+        <title>Ordena Aqui</title>
+        <link rel="stylesheet" href="./Fondo.css">
+    </head>
+    <body>
+
+        <table>
+            <tr>
+                <td><a href="./Cake Land.html"> Home </a></td>
+                <td> | </td>
+                <td><a href="./Inventario.html"> Inventario </a></td>
+            </tr>
+        </table>
+
+
+        <!-- Fondo -->
+        <section class="FondoFranjaSuperior"><img src="../Imagenes/Cake Land Logo.png" alt="Cake Land" width="200px"></section> 
+
+        <h1>Realiza tu Pedido</h1>
+
+        <!-- Formulario para Ordenar Pastel -->
+        <form action="pedido.js">
+
+        <h2>Datos de contacto</h2>
+
+        <label for="Nombre">Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre"><br><br>
+
+        <label for="Apellido">Apellido</label><br>
+        <input type="text" id="Apellido" name="Apellido"><br><br>
+
+        <label for="Tel">Teléfono</label><br>
+        <input type="tel" id="Tel" name="Tel" maxlength="10"><br><br>
+
+        <label for="correo">Email</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+        <label for="fecha">Seleccione el día y hora de su evento</label><br>
+        <input type="datetime-local" id="fecha" name="fecha"><br><br>
+
+        <label for="Nombre">Agrega una breve descripción del como quieres tu pastel</label><br>
+        <input type="text" id="Nombre" name="Nombre"><br><br>
+
+        <h2>Sabores de Bizcochos</h2>
+        <p>Puedes seleccionar hasta 3 capas diferentes:</p>
+
+        <label for="Bizcochos Capa 1">Capa 1</label>
+        <select id="Bizcochos Capa 1" name="Bizcochos Capa 1">
+            <option value="Fresa">Fresa</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Vainilla">Vainilla</option>
+            <option value="Café">Café</option>
+            <option value="Zanahoria">Zanahoria</option>
+            <option value="Limón">Limón</option>
+        </select><br><br>
+
+        <label for="Bizcochos Capa 2">Capa 2</label>
+        <select id="Bizcochos Capa 2" name="Bizcochos Capa 2">
+            <option value="None">---</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Vainilla">Vainilla</option>
+            <option value="Café">Café</option>
+            <option value="Zanahoria">Zanahoria</option>
+            <option value="Limón">Limón</option>
+        </select><br><br>
+
+        <label for="Bizcochos Capa 3">Capa 3</label>
+        <select id="Bizcochos Capa 3" name="Bizcochos Capa 3">
+            <option value="None">---</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Vainilla">Vainilla</option>
+            <option value="Café">Café</option>
+            <option value="Zanahoria">Zanahoria</option>
+            <option value="Limón">Limón</option>
+        </select><br><br>
+
+    
+        <h2>Rellenos</h2>
+        <p>Selecciona los rellenos que te gustarían:</p>
+
+        <input type="checkbox" id="Relleno1" name="Relleno1" value="Crema Batida">
+        <label for="Relleno1">Crema Batida</label><br>
+
+        <input type="checkbox" id="Relleno2" name="Relleno2" value="Mermelada">
+        <label for="Relleno2">Mermelada</label><br>
+
+        <input type="checkbox" id="Relleno3" name="Relleno3" value="Ganache">
+        <label for="Relleno3">Ganache</label><br>
+
+        <input type="checkbox" id="Relleno4" name="Relleno4" value="Nueces">
+        <label for="Relleno4">Nueces</label><br>
+
+
+        <h2>Adornos y Cubiertas</h2>
+        <p>Selecciona los adornos/cubiertas que te gustarían:</p>
+
+        <input type="checkbox" id="Adorno1" name="Adorno1" value="Chocolate">
+        <label for="Adorno1">Chocolate</label><br>
+
+        <input type="checkbox" id="Adorno2" name="Adorno2" value="Frutas">
+        <label for="Adorno2">Frutas</label><br>
+
+        <input type="checkbox" id="Adorno3" name="Adorno3" value="Caramelo">
+        <label for="Adorno3">Caramelo</label><br>
+
+        <input type="checkbox" id="Adorno4" name="Adorno4" value="Crema Batida">
+        <label for="Adorno4">Crema Batida</label><br>
+
+        <input type="checkbox" id="Adorno5" name="Adorno5" value="Merengue">
+        <label for="Adorno5">Merengue</label><br>
+
+        <input type="checkbox" id="Adorno6" name="Adorno6" value="Fondant">
+        <label for="Adorno6">Fondant</label><br>
+
+        
+        <br><br>
+        <input type="reset">
+        <input type="submit" onclick="alert('¡En breve te contactaremos!');">
+        <br><br>
+
+        </form>
+
+        <h2>Estima tu pedido</h2>
+        <table>
+
+            <tr>
+                <th> Bizcochos </th>
+                <td><ul>
+                    <li>Fresa..................................$125</li>
+                    <li>Chocolate...........................$120</li>
+                    <li>Vainilla................................$115</li>
+                    <li>Café....................................$125</li>
+                    <li>Zanahoria...........................$130</li>
+                    <li>Limón..................................$140</li>
+                </ul></td>
+            </tr>
+
+            <tr>
+                <th> Rellenos </th>
+                <td><ul>
+                    <li>Crema Batida........................$35</li>
+                    <li>Mermelada............................$25</li>
+                    <li>Ganache................................$35</li>
+                    <li>Nueces..................................$40</li>
+                </ul></td>
+            </tr>
+
+            <tr>
+                <th> Adornos </th>
+                <td><ul>
+                    <li>Chocolates de conejito.........$80</li>
+                    <li>Fruta.....................................$70</li>
+                    <li>Caramelo..............................$60</li>
+                    <li>Crema Batida........................$65</li>
+                    <li>Merengue..............................$45</li>
+                    <li>Fondant.................................$80</li>
+                </ul></td>
+            </tr>
+
+        </table>
+
+
+
+    </body>
+    
+
+    

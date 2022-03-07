@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 200px;
+}
+
+div{
+    height: 700px;
+}
+
+body{
+    background-color: #f8efe6;
+}
+
+.FondoFranjaSuperior{
+    background-color: #ad1c3b;
+}
+
+.FondoPortada{
+    background-image: url("../Imagenes/Cake\ Land\ Portada.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
